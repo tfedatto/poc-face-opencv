@@ -13,7 +13,7 @@ import reference_world as world
 from scipy.spatial import distance as dist
 
 shape_predictor = "shape_predictor_68_face_landmarks.dat"
-imagePath = "face-closed-eyes/closed.jpeg"
+imagePath = "face-ok/ok.jpeg"
 
 
 def eye_aspect_ratio(eye):
@@ -181,7 +181,8 @@ if __name__ == "__main__":
 
         check_head_pose(im, shape)
         check_closed_eyes(im, shape)
-        check_eyes_position(im, shape)
+        result = check_eyes_position(im, shape)
+        print(result)
     except Exception as e:
         print(e)
 
