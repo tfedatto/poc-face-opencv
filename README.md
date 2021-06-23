@@ -1,4 +1,4 @@
-# poc-face-opencv
+# poc-face-opencv - teste xpto
 
 Install packages in requirements.txt
 
