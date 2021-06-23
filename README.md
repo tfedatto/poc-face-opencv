@@ -1,4 +1,4 @@
-# poc-face-opencv - testex
+# poc-face-opencv - teste
 
 Install packages in requirements.txt
 
